@@ -11,7 +11,7 @@
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^2.14.1",
         "laravel/tinker": "^2.7",
-        "sdkconsultoria/whatsapp-cloud-api": "dev-develop"
+        "sdkconsultoria/whatsapp-cloud-api": "*"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
@@ -22,12 +22,6 @@
         "phpunit/phpunit": "^9.5.10",
         "spatie/laravel-ignition": "^1.0"
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "/whatsapp-cloud-api"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "App\\": "app/",
